@@ -1,0 +1,100 @@
+{
+  "accuracy": 0.9794662970022526,
+  "precision": 0.919065898912348,
+  "recall": 0.9285714285714286,
+  "f1_score": 0.9237942122186495,
+  "confusion_matrix": [
+    [19737, 253],
+    [221, 2873]
+  ],
+  "feature_importance": [
+    {
+      "feature": "is_https",
+      "importance": 0.16400006578918902
+    },
+    {
+      "feature": "digit_ratio",
+      "importance": 0.10884203382488782
+    },
+    {
+      "feature": "dom_len",
+      "importance": 0.10019843789450508
+    },
+    {
+      "feature": "entropy",
+      "importance": 0.09092129403307064
+    },
+    {
+      "feature": "digit_cnt",
+      "importance": 0.08217733786847564
+    },
+    {
+      "feature": "path_len",
+      "importance": 0.07175543366882958
+    },
+    {
+      "feature": "url_len",
+      "importance": 0.06337518475656213
+    },
+    {
+      "feature": "spec_ratio",
+      "importance": 0.057832859325929846
+    },
+    {
+      "feature": "letter_cnt",
+      "importance": 0.05082994178621638
+    },
+    {
+      "feature": "dash_cnt",
+      "importance": 0.03600868590557846
+    },
+    {
+      "feature": "tld_len",
+      "importance": 0.034310214629141696
+    },
+    {
+      "feature": "dot_cnt",
+      "importance": 0.03366652357733472
+    },
+    {
+      "feature": "letter_ratio",
+      "importance": 0.0322247324721974
+    },
+    {
+      "feature": "subdom_cnt",
+      "importance": 0.026928469882264706
+    },
+    {
+      "feature": "slash_cnt",
+      "importance": 0.021264086048469754
+    },
+    {
+      "feature": "special_cnt",
+      "importance": 0.01912354099387628
+    },
+    {
+      "feature": "query_len",
+      "importance": 0.0026872411877243425
+    },
+    {
+      "feature": "eq_cnt",
+      "importance": 0.001416478833730623
+    },
+    {
+      "feature": "under_cnt",
+      "importance": 0.0011618045897740855
+    },
+    {
+      "feature": "qm_cnt",
+      "importance": 0.0008644671727857345
+    },
+    {
+      "feature": "amp_cnt",
+      "importance": 0.0004111657594560651
+    },
+    {
+      "feature": "is_ip",
+      "importance": 0.0
+    }
+  ]
+}
